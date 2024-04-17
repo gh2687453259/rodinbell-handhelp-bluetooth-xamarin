@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+
+        <Button
+            android:id="@+id/btn_create"
+            android:gravity="left|center"
+            android:text="create"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:gravity="left|center"
+            android:text="connect"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+        <Button
+            android:id="@+id/btn_getFirm"
+            android:gravity="left|center"
+            android:text="getFirm"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+        
+        <Button
+            android:id="@+id/btn_inventory"
+            android:gravity="left|center"
+            android:text="inventory"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+
+        
+        <Button
+            android:id="@+id/btn_close"
+            android:gravity="left|center"
+            android:text="close"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
